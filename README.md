@@ -8,3 +8,4 @@
 ###
 Components
 1. gunicorn - production server for python. use when deploying
+  2. `gunicorn app:app` - name of file:flask app variable
