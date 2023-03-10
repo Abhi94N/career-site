@@ -1,6 +1,10 @@
 # career-site
 
 
-### Files
+### Directories
 1. Templates - where html page reside
-2. Static - banner.jpg
+2. Static - where static javascript, css and images reside
+
+###
+Components
+1. gunicorn - production surver
