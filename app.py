@@ -31,6 +31,7 @@ JOBS = [
     'id': 5,
     'title': 'Backend Software Engineer',
     'location': 'Remote',
+    'salary': '$150,000'
   },
 ]
 
@@ -38,6 +39,7 @@ JOBS = [
 @app.route("/")
 def index():
   return render_template("home.html", jobs=JOBS, company_name="IllumiDesk")
+
 
 # api route
 @app.route("/api/jobs")
